@@ -86,14 +86,26 @@
   }
 }
 
+/* .devicon {
+  font-family: devicon;
+  font-weight: 400;
+  font-variant: normal;
+} */
+
+i {
+  font-size: 6rem;
+  margin: auto;
+  padding: 2px;
+}
+
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.3)), to(#161616)), url("../img/IMG_1258.JPG");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.9) 75%, #161616 100%), url("../img/IMG_1258.JPG");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.9)), to(#161616)), url("../img/IMG_1258.JPG");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.7) 0%, rgba(22, 22, 22, 0.9) 75%, #161616 100%), url("../img/IMG_1258.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -104,7 +116,6 @@
   font-family: 'Petit Formal Script', sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
-  /* letter-spacing: 0.8rem; */
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
   padding: 1rem;
   -webkit-text-fill-color: transparent;
@@ -113,7 +124,18 @@
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
+}
+
+.portfolio-picture {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  padding: 1rem;
+  padding-top: -1rem;
 }
 
 @media (min-width: 768px) {
@@ -131,7 +153,6 @@
   .masthead h1 {
     font-size: 6.5rem;
     line-height: 6.5rem;
-    /* letter-spacing: 0.8rem; */
   }
   .masthead h2 {
     max-width: 30rem;
@@ -168,7 +189,7 @@
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 4.5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
@@ -228,6 +249,10 @@
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.skills-icons {
+  max-width: 2rem;
 }
 
 .contact-section {
