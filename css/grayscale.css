@@ -93,9 +93,11 @@
 } */
 
 i {
+  display: flex;
   font-size: 6rem;
   margin: auto;
   padding: 2px;
+  -webkit-box-pack: center;
 }
 
 .masthead {
