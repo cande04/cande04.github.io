@@ -6,7 +6,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 #mainNav .navbar-toggler {
@@ -21,7 +21,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #64a19d;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -60,7 +60,7 @@
     color: rgba(255, 255, 255, 0.75);
   }
   #mainNav .nav-link:active {
-    color: white;
+    color: #161616;
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
@@ -84,6 +84,9 @@
     outline: none;
     border-bottom: 0.25rem solid #64a19d;
   }
+  #mainNac.fa-bars {
+    font-size: 1.5rem;
+  }
 }
 
 /* .devicon {
@@ -92,6 +95,10 @@
   font-variant: normal;
 } */
 
+.devicon {
+  font-size: 6rem;
+}
+
 i {
   display: flex;
   font-size: 6rem;
@@ -99,6 +106,7 @@ i {
   padding: 2px;
   -webkit-box-pack: center;
 }
+
 
 .masthead {
   position: relative;
