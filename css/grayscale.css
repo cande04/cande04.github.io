@@ -235,6 +235,10 @@ i {
 
 }
 
+.skill-icon:hover {
+  background-color: #64a19d66;
+}
+
 .projects-header {
   font-family: 'Petit Formal Script', sans-serif;
   font-size: 4rem;
