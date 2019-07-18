@@ -13,6 +13,10 @@
   background-color: #fff;
 }
 
+#mainNav.navbar-shrink .nav-link{
+  color: #161616;
+}
+
 #mainNav.navbar-shrink .navbar-brand {
   color: #161616;
 }
@@ -229,6 +233,11 @@ i {
   font-family: 'Petit Formal Script', sans-serif;
   font-size: 4rem;
 
+}
+
+.projects-header {
+  font-family: 'Petit Formal Script', sans-serif;
+  font-size: 4rem;
 }
 
 .projects-section {
