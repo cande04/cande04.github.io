@@ -9,6 +9,14 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+#mainNav.navbar-shrink {
+  background-color: #fff;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+  color: #161616;
+}
+
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
@@ -95,16 +103,25 @@
   font-variant: normal;
 } */
 
-.devicon {
-  font-size: 6rem;
-}
 
 i {
   display: flex;
-  font-size: 6rem;
+  font-size: 3rem;
+  justify-content: center;
   margin: auto;
-  padding: 2px;
+  padding: .5px;
   -webkit-box-pack: center;
+}
+
+@media (min-width: 768px) {
+  i {
+    display: flex;
+    font-size: 6rem;
+    justify-content: center;
+    margin: auto;
+    padding: 2px;
+    -webkit-box-pack: center;
+  }
 }
 
 
@@ -206,6 +223,12 @@ i {
 
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.skills-header {
+  font-family: 'Petit Formal Script', sans-serif;
+  font-size: 4rem;
+
 }
 
 .projects-section {
