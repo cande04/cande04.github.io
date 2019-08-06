@@ -263,6 +263,12 @@ i {
   padding: 2rem;
 }
 
+.contact-header {
+  font-family: 'Petit Formal Script', sans-serif;
+  font-size: 2.5rem;
+
+}
+
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
